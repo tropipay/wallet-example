@@ -1,0 +1,64 @@
+{
+  "name": "@tropipay/wallet-sdk",
+  "version": "1.0.0",
+  "description": "Official JavaScript SDK for TropiPay API integration - Build wallets and payment applications easily",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "src/types/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "docs": "jsdoc src/ -d docs/",
+    "build": "npm run lint && npm run test",
+    "example:basic": "node examples/basic-usage.js",
+    "example:wallet": "node examples/wallet-app.js",
+    "example:transfers": "node examples/transfers.js"
+  },
+  "keywords": [
+    "tropipay",
+    "payment",
+    "wallet",
+    "api",
+    "sdk",
+    "fintech",
+    "money-transfer",
+    "digital-wallet",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "TropiPay Team <developers@tropipay.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tropipay/wallet-sdk-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tropipay/wallet-sdk-js/issues"
+  },
+  "homepage": "https://developer.tropipay.com/sdk/javascript",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "eventemitter3": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.55.0",
+    "jsdoc": "^4.0.2",
+    "@types/node": "^20.10.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

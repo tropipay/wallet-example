@@ -1,0 +1,37 @@
+{
+  "name": "tropipay-wallet-backend",
+  "version": "1.0.0",
+  "description": "Backend server for TropiPay Wallet - Handles API connections and SQLite database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:refactored": "node server-refactored.js",
+    "dev": "nodemon server.js",
+    "dev:refactored": "nodemon server-refactored.js",
+    "migrate": "node migrate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tropipay",
+    "wallet",
+    "api",
+    "backend",
+    "sqlite",
+    "express"
+  ],
+  "author": "TropiPay Wallet Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
