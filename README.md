@@ -156,7 +156,7 @@ The wallet implements OAuth2 Client Credentials flow:
 
 ```javascript
 // Step 1: Get Access Token
-POST https://sandbox.tropipay.com/api/v3/access/token
+POST https://sandbox.tropipay.me/api/v3/access/token
 {
   "client_id": "your_client_id",
   "client_secret": "your_client_secret", 
@@ -412,7 +412,7 @@ const result = await backendAPI.executeTransfer(userId, transferData);
 ## 🌍 **Multi-Environment Support**
 
 ### **Development Environment**
-- **API URL:** `https://sandbox.tropipay.com/api/v3`
+- **API URL:** `https://sandbox.tropipay.me/api/v3`
 - **Features:** Demo mode, test data, bypassed 2FA
 - **Logging:** Detailed API request/response logging
 - **Usage:** Development and testing
@@ -428,7 +428,7 @@ const result = await backendAPI.executeTransfer(userId, transferData);
 // Dynamic environment switching
 const config = {
   development: {
-    apiUrl: 'https://sandbox.tropipay.com/api/v3',
+    apiUrl: 'https://sandbox.tropipay.me/api/v3',
     enableLogging: true,
     bypassSMS: true
   },
@@ -558,7 +558,7 @@ npm run migrate
 ```javascript
 // API Request/Response logging
 🚀 === TROPIPAY API REQUEST ===
-📤 POST https://sandbox.tropipay.com/api/v3/access/token
+📤 POST https://sandbox.tropipay.me/api/v3/access/token
 📋 Headers: { "Content-Type": "application/json" }
 📦 Payload: { "grant_type": "client_credentials" }
 
