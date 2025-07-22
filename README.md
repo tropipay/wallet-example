@@ -110,7 +110,7 @@ Create a `.env` file in the `backend/` directory:
 ```bash
 # TropiPay Environment Configuration
 TROPIPAY_DEFAULT_ENV=development
-TROPIPAY_DEV_API_URL=https://sandbox.tropipay.com/api/v3
+TROPIPAY_DEV_API_URL=https://sandbox.tropipay.me/api/v3
 TROPIPAY_PROD_API_URL=https://www.tropipay.com/api/v3
 
 # Server Configuration
