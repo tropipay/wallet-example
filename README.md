@@ -86,10 +86,11 @@ graph TB
 - **Client ID** and **Client Secret** from TropiPay
 
 ### **1. Get Your TropiPay Credentials**
-1. Register at [TropiPay Developer Portal](https://developer.tropipay.com)
-2. Create a new application
+1. Register at [TropiPay Developer Portal](https://sandbox.tropipay.me)
+2. Create a [new credential](https://doc.tropipay.com/docs/basics/setting-up-credentials)
 3. Copy your **Client ID** and **Client Secret**
 4. Configure redirect URLs if needed
+5. You can get a [detailed api doc here](https://doc.tropipay.com/docs/intro)
 
 ### **2. Clone and Setup**
 ```bash
